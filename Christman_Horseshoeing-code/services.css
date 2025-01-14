@@ -1,0 +1,318 @@
+@font-face{
+    font-family: bronco;
+    src: url(fonts/bronco-font/Bronco-WyGzn.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@media screen and (max-width:2000px) {
+    .main{
+        width: 100%;
+        height: fit-content;
+        background: #fafafa;
+    }
+    
+    .nav {
+        width: 100%;
+        height: 90px;
+        background: #fff1e1;
+        border-bottom: #511a02 solid 2px;
+        opacity: 96%;
+        display: flex;
+        position: fixed;
+        z-index: 1;
+    }
+    
+    .nav img {
+        width: 100px;
+        margin: 5px 20px;
+    }
+    
+    .nav .right img {
+        position: relative;
+        width: 30px;
+        margin-top: 30px;
+    }
+    
+    .nav .right img:hover {
+        cursor: pointer;
+    }
+    
+    
+    .nav ul{
+        width: 100%;
+        text-align: center;
+    }
+    
+    .nav ul li {
+        display: inline-block;
+        list-style: none;
+        margin: auto 40px;
+        position: relative;
+        top: 25%;
+        right: 30px;
+    }
+    
+    .nav ul li img {
+        width: 30px;
+    }
+    
+    .nav-links {
+        width: 0;
+        max-height: 400px;
+        right: 0;
+        top: 90px;
+        background: #fff1e1;
+        position: fixed;
+        border-bottom-left-radius: 10px;
+        /* border-left: #511a02 solid 2px;
+        border-bottom: #511a02 solid 2px; */
+        padding: 0;
+        text-align: center;
+        transition: width 0.5s;
+        z-index: 1;
+    }
+    
+    .nav-links.open-menu {
+        width: 100px;
+        padding: 5px;
+        border-left: #511a02 solid 2px;
+        border-bottom: #511a02 solid 2px;
+    
+    }
+    
+    .nav-links ul {
+        width: 100%;
+    }
+    
+    .nav-links ul li{
+        list-style: none;
+        margin: 30px auto;
+    }
+    
+    .nav-links ul li a {
+        font-family: bronco;
+        font-size: 20px;
+        text-decoration: none;
+        color:#fff1e1;
+        background: #511a02;
+        width:fit-content;
+        border: #511a02 solid 2px;
+        border-radius: 10px;
+        padding: 5px;
+        transition: 0.5s;
+    }
+    
+    .nav-links img {
+        width: 100px;
+        background: #fff1e1;
+        border: #fff1e1;
+        color: #fff1e1;
+    }
+    
+    .nav-links ul li a:hover {
+        color: #511a02;
+        background: #fff1e1;
+        box-shadow: 5px 5px 5px;
+    }
+
+    .title-wrap {
+        width: 100%;
+        position: relative;
+        top: 80px;
+    }
+
+    .title-wrap .title {
+        background: url('images/service-title.jpeg');
+        background-size: cover;
+        width: 100%; /*5160 × 3345 */
+        height: 500px;
+        align-content: center;
+    }
+
+    .title h1 {
+        width: fit-content;
+        text-align: center;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 70px;
+        padding: 5px;
+        margin: 0 auto;
+        color: #fafafa;
+        opacity: 90%;
+        text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    }
+
+    .service-wrap {
+        width: 100%;
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .service1 {
+        width: 100%;
+        margin: 150px auto;
+        display: flex;
+    }
+
+    .service1 img {
+        width: 500px;
+        border-radius: 10px;
+        margin-left: auto;
+        margin-right: 40px;
+    }
+
+    .service1 .img-description {
+        width: fit-content;
+        margin-right: auto;
+        margin-left: 40px;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .img-description figcaption {
+        width:fit-content;
+        margin: auto;
+        font-size: 70px;
+        font-family: bronco;
+    }
+
+    .img-description p {
+        width: fit-content;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 16px;
+        margin: auto;
+    }
+
+    .service2 {
+        width: 100%;
+        margin: 150px auto;
+        display: flex;
+    }
+
+    .service2 .img-description {
+        width: fit-content;
+        margin-right: 40px;
+        margin-left: auto;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    .service2 img {
+        width: 500px;
+        border-radius: 10px;
+        margin-left: 40px;
+        margin-right: auto;
+    }
+
+
+    .more-info-wrap {
+        width: 100%;
+        position: relative;
+        padding-bottom: 40px;
+    }
+
+    .more-info {
+        width: 100%;
+        position:relative;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+
+    .more-info ul {
+        width: 95%;
+        display: flex;
+        /* flex-wrap: wrap; */
+        align-content: center;
+        margin: 0 auto;
+    }
+
+    .more-info ul li {
+        margin: 10px auto;
+        list-style: none;
+    }
+    
+    .more-info h3 {
+        width: fit-content;
+        margin: 30px auto;
+        font-size: 20px;
+    }
+
+    .more-info p {
+        width:fit-content;
+        font-size: 20px;
+        margin: 10px auto;
+        border:#511a02 solid 2px;
+        border-radius: 10px;
+        padding: 10px;
+        background: #511a02;
+        color: #fff1e1;
+        transition: 0.5s;
+    }
+
+    .more-info p:hover {
+        background: #fff1e1;
+        color: #511a02;
+    }
+
+    .more-info a {
+        text-decoration: none;
+    }
+
+    footer {
+        background: #511a02;
+        width: 100%;
+        height: 150px;
+    }
+
+    .footer-content {
+        background: #511a02;
+        width: 100%;
+        display: flex;
+        align-content: center;
+    }
+
+    .footer-content p {
+        color: #fafafa;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: small;
+        margin: auto;
+    }
+
+    .footer-content .end-links {
+        width: fit-content;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        margin: 30px auto;
+    }
+
+    .footer-content .end-links h5 {
+        color: #fafafa;
+    }
+
+    .footer-content ul {
+        width: fit-content;
+    }
+
+    .footer-content ul li {
+        list-style: none;
+        text-decoration: none;
+        color:#fafafa;
+    }
+
+    .footer-content ul li a {
+        color: #fafafa;
+        text-decoration: none;
+        font-size: small;
+    }
+
+    .footer-content .up-arrow {
+        width: 100px;
+        align-content: center;
+    }
+
+    .footer-content .up-arrow img {
+        width: 100%;
+    }
+}

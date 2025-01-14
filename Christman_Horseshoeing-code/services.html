@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Christman Horseshoeing</title>
+        <link rel="stylesheet" type="text/css" href="services.css">
+    </head>
+    <body>
+        <div class="main">
+            <div class="nav">
+                <a href="index.html#home"><img src="images/CHC-logo.png"></a>
+                <ul>
+                    <li><a href="index.html#home"><img src="images/home.svg"></a></li>
+                    <li><a href="index.html#about"><img src="images/about.svg"></a></li>
+                    <li><a href="index.html#contact"><img src="images/contact.png"></a></li>
+                </ul>
+                <a class="right"><img src="images/Menu.png" onclick="toggleMenu()"></a>
+            </div>
+
+            <div class="nav-links" id="subMenu">
+                <ul>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <img src="images/horse-in-shoe.png">
+                </ul>
+            </div>
+
+            <div id="home" class="title-wrap">
+                <div class="title">
+                    <h1>SERVICES</h1>
+                </div>
+            </div>
+
+            <div class="services-wrap">
+                <figure class="service1">
+                    <img src="images/trims.jpeg">
+                    <div class="img-description">
+                        <figcaption>Barefoot Trims</figcaption>
+                        <p>Trims - $50</p>
+                    </div>
+                </figure>
+                <figure class="service2">
+                    <div class="img-description">
+                        <figcaption>Draft Trims</figcaption>
+                        <p>Draft Trims - $65</p>
+                    </div>
+                    <img src="images/draft-horse.jpeg">
+                </figure>
+
+                <figure class="service1">
+                    <img src="images/mini-pony.jpeg">
+                    <div class="img-description">
+                        <figcaption>Mini Pony Trims</figcaption>
+                        <p>Mini Pony Trims - $35</p>
+                    </div>
+                </figure>
+
+                <figure class="service2">
+                    <div class="img-description">
+                        <figcaption>Half Set</figcaption>
+                        <p>Half Set - $100</p>
+                    </div>
+                    <img src="images/half-set.jpeg">
+                </figure>
+
+                <figure class="service1">
+                    <img src="images/full-set.jpeg">
+                    <div class="img-description">
+                        <figcaption>Full Set</figcaption>
+                        <p>Full Set - $150</p>
+                    </div>                    
+                </figure>
+
+                <figure class="service2">
+                    <div class="img-description">
+                        <figcaption>Therapeutic Shoes</figcaption>
+                        <p>Therapeutic Shoes - +$30 (per shoe)</p>
+                    </div>                      
+                    <img src="images/theraprutic.png">
+                </figure>
+
+                <div class="more-info-wrap">
+                    <div class="more-info">
+                      <!--   <ul>
+                            <li>Trims - $50</li>
+                            <li>Mini Pony Trims - $35</li>
+                            <li>Draft Trims - $65</li>
+                            <li>Half Set - $100</li>
+                            <li>Full Set - $150</li>
+                            <li>Therapeutic Shoes - +$30 (per theraprutic show)</li>
+                        </ul> -->
+                        <h3>For more information contact me with through the link below!</h3>
+                        <a href="index.html#contact"><p>CONTACT</p></a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <script>
+            let subMenu = document.getElementById("subMenu");
+
+            function toggleMenu(){
+                subMenu.classList.toggle("open-menu");
+            }
+        </script>
+    </body>
+    <footer>
+        <div class="quick-links">
+            <div class="footer-content">
+                <div class="end-links">
+                    <h5>Helpful Links</h5>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="up-arrow">
+                    <a href="#home"><img src="images/arrow-up-01-512 copy.webp"></a>
+                </div>
+                <p>ChristmanHorseshoing</p>
+            </div>
+
+        </div>
+        
+    </footer>
+</html>

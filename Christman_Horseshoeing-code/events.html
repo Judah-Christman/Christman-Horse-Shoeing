@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Christman Horseshoeing</title>
+        <link rel="stylesheet" type="text/css" href="events.css">
+    </head>
+
+    <body>
+        <div class="main">
+            <div class="nav">
+                <a href="index.html#home"><img src="images/CHC-logo.png"></a>
+                <ul>
+                    <li><a href="index.html#home"><img src="images/home.svg"></a></li>
+                    <li><a href="index.html#about"><img src="images/about.svg"></a></li>
+                    <li><a href="index.html#contact"><img src="images/contact.png"></a></li>
+                </ul>
+                <a class="right"><img src="images/Menu.png" onclick="toggleMenu()"></a>
+            </div>
+
+            <div class="nav-links" id="subMenu">
+                <ul>
+                    <li><a href="services.html">SERVICES</a></li>
+                    <li><a href="events.html">EVENTS</a></li>
+                    <li><a href="gallery.html">GALLERY</a></li>
+                    <img src="images/horse-in-shoe.png">
+                </ul>
+            </div>
+            <div id="home" class="title-wrap">
+                <div class="title">
+                    <h1>Events</h1>
+                </div>
+            </div>
+
+            <div class="event-banner">
+                <h3>Current Event!</h3>
+            </div>
+
+            <div class="event">
+                <h4>SISTERS RODEO</h4>
+                <p><a href="index.html#contact">Contact</a> to schedule services at Sisters Roedeo!</p>
+            </div>
+
+            <div class="calender-wrap">
+                <iframe src="https://calendar.google.com/calendar/embed?height=600&wkst=1&ctz=America%2FBoise&bgcolor=%23fff1e1&showTitle=0&showPrint=0&showCalendars=0&title=Christman%20Horseshoeing&src=Y2hyaXN0bWFuaG9yc2VzaG9laW5nQGdtYWlsLmNvbQ&color=%23039BE5" style="border-width:0" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+            </div>
+        </div>
+
+
+        <script>
+            let subMenu = document.getElementById("subMenu");
+
+            function toggleMenu(){
+                subMenu.classList.toggle("open-menu");
+            }
+        </script>
+    </body>
+
+    <footer>
+        <div class="quick-links">
+            <div class="footer-content">
+                <div class="end-links">
+                    <h5>Helpful Links</h5>
+                    <ul>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="events.html">Events</a></li>
+                        <li><a href="gallery.html">Gallery</a></li>
+                    </ul>
+
+                </div>
+
+                <div class="up-arrow">
+                    <a href="events.html"><img src="images/arrow-up-01-512 copy.webp"></a>
+                </div>
+                <p>ChristmanHorseshoing</p>
+            </div>
+
+        </div>
+        
+    </footer>
+</html>
