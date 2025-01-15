@@ -27,7 +27,7 @@
     }
     
     .nav img {
-        width: 100px;
+        width: 130px;
         margin: 5px 20px;
     }
     
@@ -206,11 +206,6 @@
         align-content: center;
     }
 
-    .footer-content p {
-        color: #fafafa;
-        font-family: Georgia, 'Times New Roman', Times, serif;
-        font-size: small;
-        margin: auto;
     }
 
     .footer-content .end-links {
@@ -246,6 +241,30 @@
 
     .footer-content .up-arrow img {
         width: 100%;
+    }
+
+    .footer-content .media-links {
+        width: fit-content;
+        margin: auto;
+    }
+
+    .footer-content .media-links p {
+        color: #fafafa;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: small;
+        margin: auto;
+    }
+
+    /*.footer-content .media-links a {
+        width: 50px;
+        padding: 3px;
+        margin: 2px;
+        align-content: center;
+    }*/
+
+    .footer-content .media-links a img {
+        width: 50px;
+        margin: 5px;
     }
 
 }
