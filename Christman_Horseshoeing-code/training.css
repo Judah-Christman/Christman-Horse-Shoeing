@@ -193,6 +193,14 @@
         text-align: justify;
     }
 
+    .note {
+        width: 90%;
+        font-family: Georgia, 'Times New Romans', Times, serif;
+        font-size: 12px;
+        text-align: center;
+        margin: 10px auto;
+    }
+
     footer {
         position: absolute;
         top: 230%;
@@ -441,7 +449,7 @@
 
     footer {
         position: absolute;
-        top: 125%;
+        top: 150%;
         background: #511a02;
         width: 100%;
         height: 150px;
