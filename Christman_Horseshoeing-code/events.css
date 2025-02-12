@@ -126,10 +126,10 @@
     }
 
     .title-wrap .title {
-        background: url('images/events-title.png');
+        background: url('images/events.jpeg');
         background-size: cover;
         width: 100%; /*5160 × 3345 */
-        height: 500px;
+        height: 855px;
         align-content: center;
     }
 
@@ -183,7 +183,7 @@
 
     .calender-wrap {
         width: 80%;
-        margin: 50px auto 0;
+        margin: 10% auto 0;
         padding-bottom: 50px;
     }
 
