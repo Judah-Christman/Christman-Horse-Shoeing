@@ -383,37 +383,68 @@
         font-family: Georgia, 'Times New Roman', Times, serif;
         font-size: 90px;
         padding: 5px;
-        margin: 0 auto;
+        margin: 20% auto;
         color: #fafafa;
         opacity: 90%;
         text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
     }
 
-    .event-banner h3 {
-        width:fit-content;
-        color: #fafafa;
+    .main-section {
+        position: absolute;
+        top: 855px;
+        width: 90%;
+        height: 100%;
+        padding: 10px;
+        margin: 10px;
+    }
+
+    .main-section h2 {
+        width: fit-content;
+        padding: 5px;
+        margin: 30px auto;
         font-family: bronco;
-        font-size: 60px;
-        margin: 10px auto;
+        font-size: 70px;
     }
 
-    .event {
-        width: 100%;
-        margin: 20px 0;
+    .main-section .main-paragraph {
+        width: 90%;
+        padding: 10px;
+        margin: 10px auto;
+        text-align: justify;
         font-family: Georgia, 'Times New Roman', Times, serif;
-    }
-
-    .event h4 {
-        width: fit-content;
-        margin: 10px auto;
-        font-size: 35px;
-        text-align: center;
-    }
-
-    .event p {
-        width: fit-content;
         font-size: 25px;
-        margin: 0 auto;
-        text-align: center;
     }
+
+    .training-details {
+        display: flex;
+        align-content: center;
+        
+    }
+
+    .training-details .prices {
+        width: 15%;
+        padding: 10px;
+        margin: 10px 5% 10px;
+        margin-left: 15%;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+    }
+
+    .training-details .details {
+        width: 40%;
+        padding: 10px;
+        margin: 10px 10% 0px 10px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-size: 20px;
+        text-align: justify;
+    }
+
+    footer {
+        position: absolute;
+        top: 125%;
+        background: #511a02;
+        width: 100%;
+        height: 150px;
+    }
+
 }
