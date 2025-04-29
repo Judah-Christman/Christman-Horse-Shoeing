@@ -274,6 +274,23 @@
         align-content: center;
     }
 
+    
+
+    .judah{
+        position: absolute;
+        padding: 10px;
+        left: 10px;
+        width: 15%;
+        font-family: Georgia, Times, serif;
+        color: #fafafa;
+    }
+
+    .judah a {
+        text-decoration: none;
+        color: #fafafa;
+        font-weight: 600;
+    }
+
     .footer-content .end-links {
         width: fit-content;
         font-family: Georgia, 'Times New Roman', Times, serif;

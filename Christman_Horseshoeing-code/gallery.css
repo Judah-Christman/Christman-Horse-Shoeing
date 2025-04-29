@@ -270,6 +270,22 @@
         height: 150px;
     }
 
+
+    .judah{
+        position: absolute;
+        padding: 10px;
+        left: 10px;
+        width: 15%;
+        font-family: Georgia, Times, serif;
+        color: #fafafa;
+    }
+
+    .judah a {
+        text-decoration: none;
+        color: #fafafa;
+        font-weight: 600;
+    }
+
     .footer-content {
         background: #511a02;
         width: 100%;
